@@ -11,5 +11,9 @@ spring:
         git:
           uri: file://${user.dir}/../spring-cloud-services-startup-config
 
+eureka:
+  client:
+    registry-fetch-interval-seconds: 5
+
 logging.level:
   com.netflix.discovery: trace

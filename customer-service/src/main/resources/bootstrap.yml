@@ -10,5 +10,9 @@ spring:
     retry:
       max-attempts: 60
 
+eureka:
+  client:
+    registry-fetch-interval-seconds: 60
+
 logging.level:
   org.springframework.retry: trace
