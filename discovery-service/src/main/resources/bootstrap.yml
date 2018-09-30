@@ -9,6 +9,10 @@ spring:
       retry:
         max-attempts: 20
 
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 10
+
 logging.level:
   org.springframework.retry: trace
   com.netflix.discovery: trace

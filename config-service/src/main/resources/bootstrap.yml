@@ -11,5 +11,9 @@ spring:
         git:
           uri: file://${user.dir}/../spring-cloud-services-startup-config
 
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 10
+
 logging.level:
   com.netflix.discovery: trace
