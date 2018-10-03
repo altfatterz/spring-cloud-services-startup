@@ -12,6 +12,7 @@
         <module>config-service</module>
         <module>discovery-service</module>
         <module>customer-service</module>
+        <module>order-service</module>
     </modules>
 
 </project>
